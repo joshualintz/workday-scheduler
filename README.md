@@ -12,7 +12,7 @@ This week’s Challenge is to create a simple calendar application that allows a
 * HTML
 * CSS
 * [Bootstrap](https://getbootstrap.com/)
-* [JQuery](https://jquery.com/) and 
+* [JQuery](https://jquery.com/)
 * [JavaScript](https://www.javascript.com/)
 * [moment.js](https://momentjs.com/) (for time management)
 
