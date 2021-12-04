@@ -1,33 +1,62 @@
+:root {
+  --primary-color: #33FFDA;
+  --secondary-color: #3358FF;
+  --tertiary-color: #E9EAED;
+  --quaternary-color: #6ee041;
+  --quinary-color: #33BEFF;
+  --senary-color: #F85767;
+  --septenary-color: #895BDB;
+  --octonary-color: #525252;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--tertiary-color);
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+.container {
+  max-width: 1024px;
+}
+
+textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: var(--octonary-color);
+  border-left: 1px solid rgb(82, 82, 82);
   padding: 10px;
+  letter-spacing: 1px;
 }
 
 .jumbotron {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
   text-align: center;
-  background-color: transparent;
-  color: black;
+  color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  border-bottom: 10px solid var(--octonary-color);
 }
 
-.description{
+#resetBtn {
+  margin-top: 10px;
+}
+
+.description {
   white-space: pre-wrap;
+  font-weight: 600;
 }
 
-.time-block{
-  text-align: center;
-  border-radius: 15px;
+.task-text {
+  color: white;
+  text-align: justify;
+}
+
+.task-block {
+  text-align: justify;
 }
 
 .row {
@@ -37,35 +66,39 @@ textarea{
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: var(--quaternary-color);
+  color: var(--octonary-color);
+  padding-top: 27px;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: var(--senary-color);
+  border-radius: 15px;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: var(--primary-color);
+  border-radius: 15px;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid var(--octonary-color);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: var(--quinary-color);
   color: white;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
 }

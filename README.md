@@ -11,9 +11,10 @@ This week’s Challenge is to create a simple calendar application that allows a
 ## Built With
 * HTML
 * CSS
-* JavaScript
-* jQuery
-* Moment.js
+* [Bootstrap](https://getbootstrap.com/)
+* [JQuery](https://jquery.com/) and 
+* [JavaScript](https://www.javascript.com/)
+* [moment.js](https://momentjs.com/) (for time management)
 
 ## User Story
 
